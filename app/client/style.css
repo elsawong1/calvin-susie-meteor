@@ -1,28 +1,58 @@
 /* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
-/* Set up some CSS variables to theme the application. */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --matr-navbar-bg: #ECECEC;
   --matr-navbar-bg-rgb: 236, 236, 236;
 }
+#body{
+  background-color: #c8d8eb;
+  font-family: "Montserrat", "Roboto+Mono";
+  font-size: 12px;
+}
+Nav{
+  background-color: #c8d8eb;
+  font-size: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#form{
+  font-size: 10px;
+  color: red;
+  text-align: center;
 
-/* Change bootstrap variable values.
- See https://getbootstrap.com/docs/5.2/customize/css-variables/
- */
-body {
-  --bs-light-rgb: var(--matr-navbar-bg-rgb);
 }
 
-/* Set the alert background on the signin and signup pages. */
-#signin-page .alert-light, #signup-page .alert-light {
-  --bs-alert-bg: var(--matr-navbar-bg);
+.grad-background {
+  background: url("/images/mainimage.webp") no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+  color: white;
+
+}
+h1{
+  text-align: center;
+  padding-top: 100px;
+}
+#calvin{
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+
+}
+input{
+  background-color: #c8d8eb;
+}
+#icons{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-/* Define custom styles */
-.gray-background {
-  background-color: var(--matr-navbar-bg);
-  color: var(--bs-dark);
-  padding-top: 10px;
-  padding-bottom: 20px;
+
+#email{
+  display: flex;
+  justify-content: center;
 }
+
